@@ -20,6 +20,29 @@
        
     </head>
     <body >
+        <header>
+            <nav class= "navbar navbar-expand-lg navbar-light">
+                <div class="collapse navbar-collapse" id="navbar">
+                    <a href="/" class="navbar-brand">
+                    <img src="/img/logo.jpg" alt="logo" id="logo-img">
+                    </a>
+                    <lu class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">eventos</a>
+                        </li>
+                         <li class="nav-item">
+                            <a href="/" class="nav-link">entra</a>
+                        </li>
+                         <li class="nav-item">
+                            <a href="/" class="nav-link">cadrastar</a>
+                        </li>
+                         <li class="nav-item">
+                            <a href="/" class="nav-link">ver eventos</a>
+                        </li>
+                    </lu>
+                </div>
+            </nav>
+        </header>
         @yield('conteudo')
         <footer>
             <p> Arduino events &copy; 2024</p>
